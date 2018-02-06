@@ -1,0 +1,13 @@
+<form id="msform">
+  <ul id="progressbar">
+    <li ui-sref-active="active" ui-sref=".profile">Account Setup</li>
+    <li ui-sref-active="active" ui-sref=".interests">Social Profiles</li>
+    <li ui-sref-active="active" ui-sref=".payment">Personal Details</li>
+  </ul>
+  <div>
+	<div id="form-views" ui-view></div>
+  </div>
+  <pre>
+	{{ formData }}
+  </pre>
+</form>
